@@ -123,91 +123,7 @@ const App = () => {
                   </li>
                 </ul>
               </div>
-              {/* 
-            {provider && !walletKey && (
-              <div className="header__btns">
-                <a
-                  style={{
-                    fontSize: "18px",
-                    padding: " 20px 40px",
-                    fill: "black",
-                    color: "black",
-                    backgroundColor: "#f8c307",
-                    fontFamily: "boston",
-                    borderRadius: " 5px",
-                  }}
-                  onClick={connectWallet}
-                >
-                  Connect wallet
-                </a>
-              </div>
-            )}
-            {provider && walletKey && (
-              <div
-                className="header__avatar"
-                style={{
-                  fontSize: "18px",
-                  width: "14rem",
-                  whiteSpace: "nowrap",
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  display: "inline-block",
-                  fill: "black",
-                  paddingTop: "1rem",
-                  paddingBottom: "1rem",
-                  paddingLeft: "0.4rem",
-                  color: "black",
-                  backgroundColor: "#f8c307",
-                  fontFamily: "boston",
-                  borderRadius: " 5px",
-                }}
-              >
-                <div className=" text-centre">
-                  <span style={{ color: "black" }}>
-                    {provider && walletKey && (
-                      <p style={{ color: "black" }}> {walletKey}</p>
-                    )}
-                  </span>
-                </div>
 
-                <div className="avatar_popup space-y-20">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <span> 13b9ebda035r178... </span>
-                    <a href="/" className="ml-2">
-                      <i className="ri-file-copy-line"></i>
-                    </a>
-                  </div>
-                  <div className="d-flex align-items-center space-x-10">
-                    <img
-                      className="coin"
-                      src="assets/img/logos/coin.svg"
-                      alt="/"
-                    />
-                    <div className="info">
-                      <p className="text-sm font-book text-gray-400">Balance</p>
-                      <p className="w-full text-sm font-bold text-green-500">
-                        16.58 ETH
-                      </p>
-                    </div>
-                  </div>
-                  <div className="hr"></div>
-                  <div className="links space-y-10">
-                    <a href="#">
-                      <i className="ri-landscape-line"></i>{" "}
-                      <span> My items</span>
-                    </a>
-                    <a href="edit_profile.html">
-                      <i className="ri-pencil-line"></i>{" "}
-                      <span> Edit Profile</span>
-                    </a>
-                    <div className="btn" onClick={disconnectWallet}>
-                      <i className="ri-logout-circle-line"></i>{" "}
-                      <span> Disconnect</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )} */}
               {!pubKey ? (
                 <div className="header__btns">
                   <a
@@ -317,59 +233,64 @@ const App = () => {
       <div>
         {" "}
         <section>
-          <div className="container  pt-5">
-            <div className="row row justify-content-center sm:space-y-20 ">
-              <div className="col-12 col-lg-5 mb-5 mb-lg-0">
-                <span
-                  style={{ fontFamily: "boston", color: "black" }}
-                  className="display-4 fw-bold mb-5"
-                  data-config-id="header"
-                >
-                  take me in
-                </span>
-                <p
-                  style={{
-                    fontFamily: "Aldrich",
-                    color: "white",
-                  }}
-                  className="lead  mb-5"
-                  data-config-id="desc"
-                >
-                  Skull avenue has a population of people coming from various
-                  types of backgrounds. They move around frequently, because of
-                  the NFT climate. Each person is unique. Each have their own
-                  personality type and each super valuable. However, the people
-                  of skull avenue have always been secret about their way of
-                  life, but for the first time, they will open to the public and
-                  will storm the world of NFTs.
-                </p>
-                <div className="space-y-0">
-                  <div className="header__btns ">
-                    <a
-                      href="#mint"
-                      style={{
-                        fontSize: "18px",
-                        padding: " 20px 40px",
-                        fill: "black",
-                        color: "white",
-                        backgroundColor: "#0c1b27",
-                        fontFamily: "boston",
-                        borderRadius: " 5px",
-                      }}
-                    >
-                      Mint Now
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 col-lg-6 mb-5 mb-lg-0">
-                <img
-                  className="img-fluid"
-                  src={require("./img/mint_gif.gif").default}
-                  alt=""
-                  data-config-id="image"
-                />
-              </div>
+          <div
+            className="container-fluid  pt-10 mint-header"
+            style={{ minHeight: "700px" }}
+          >
+            <div
+              className="col-12 col-lg-6 mb-5 mb-lg-0"
+              style={{
+                backgroundColor: "#b69b7ee2",
+                padding: "40px",
+                top: "15%",
+                left: "45%",
+                position: "absolute",
+                wordWrap: "break",
+                width: "650px",
+              }}
+            >
+              <span
+                style={{
+                  fontFamily: "boston",
+                  color: "black",
+                }}
+                className="display-5 fw-bold mb-5"
+                data-config-id="header"
+              >
+                take me in
+              </span>
+              <p
+                style={{
+                  fontFamily: "Aldrich",
+                  color: "white",
+                }}
+                className="lead  mb-5"
+                data-config-id="desc"
+              >
+                Skull avenue has a population of people coming from various
+                types of backgrounds. They move around frequently, because of
+                the NFT climate. Each person is unique. Each have their own
+                personality type and each super valuable. However, the people of
+                skull avenue have always been secret about their way of life,
+                but for the first time, they will open to the public and will
+                storm the world of NFTs.
+              </p>
+
+              <a
+                href="#mint"
+                style={{
+                  fontSize: "18px",
+                  padding: " 20px 40px",
+                  fill: "black",
+                  color: "white",
+                  backgroundColor: "#f8c307",
+                  fontFamily: "Aldrich",
+                  fontWeight: "bold",
+                  borderRadius: " 5px",
+                }}
+              >
+                Mint Now
+              </a>
             </div>
           </div>
         </section>
