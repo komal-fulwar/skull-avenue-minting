@@ -263,7 +263,7 @@ const App = () => {
                 className="display-5 fw-bold mb-5"
                 data-config-id="header"
               >
-                take me in
+                GET YOUR SKULL NOW
               </span>
               <p
                 style={{
@@ -273,13 +273,16 @@ const App = () => {
                 className="lead  mb-5"
                 data-config-id="desc"
               >
-                Skull avenue has a population of people coming from various
-                types of backgrounds. They move around frequently, because of
-                the NFT climate. Each person is unique. Each have their own
-                personality type and each super valuable. However, the people of
-                skull avenue have always been secret about their way of life,
-                but for the first time, they will open to the public and will
-                storm the world of NFTs.
+                Skullavenue is a community of 4.444 unique full-body NFTs,
+                living in between the realm of what has been and what is yet to
+                come. Skullavenue has embarked on an ever-lasting journey,
+                travelling through the Solana universe. Skulls are often seen as
+                a symbol of death, confronting us with our mortality. This very
+                mortality connects all of us living on planet earth and those
+                who have physically left us. In addition, the skull is an
+                attribute that all humans have in common. No matter who you are
+                or where you come from, you carry one. We are all the same, yet
+                unique.
               </p>
 
               <a
@@ -304,28 +307,32 @@ const App = () => {
           <div className="community">
             <div className="section__head space-y-20 text-center">
               <span
-                style={{ fontFamily: "boston", color: "black" }}
+                style={{
+                  fontFamily: "boston",
+                  color: "black",
+                }}
                 className="section__title text-center"
               >
-                GET YOUR SKULL NOW
+                FACTS
               </span>
               <p
                 style={{
                   fontFamily: "Aldrich",
                   color: "white",
                 }}
-                className=""
+                className="text-center"
               >
-                Skullavenue is a community of 4.444 unique full-body NFTs,
-                living in between the realm of what has been and what is yet to
-                come. Skullavenue has embarked on an ever-lasting journey,
-                travelling through the Solana universe. Skulls are often seen as
-                a symbol of death, confronting us with our mortality. This very
-                mortality connects all of us living on planet earth and those
-                who have physically left us. In addition, the skull is an
-                attribute that all humans have in common. No matter who you are
-                or where you come from, you carry one. We are all the same, yet
-                unique.
+                <span
+                  style={{
+                    fontFamily: "Aldrich",
+                    color: "white",
+                    borderRight: "solid 2px black ",
+                    marginRight: "5px",
+                  }}
+                >
+                  Unique pieces: 4444{" "}
+                </span>
+                Attributes: 160
               </p>
             </div>
           </div>
@@ -380,11 +387,8 @@ const App = () => {
                       }}
                       className="section__text text-center"
                     >
-                      The collection includes eleven Wanted on the run. Somehow
-                      the prisoners escaped the Skullavenue state prison and are
-                      hiding among the other people of Skullavenue on the Solana
-                      blockchain. Whoever catches them will be rewarded with an
-                      additional NFT.
+                      Available in the Public sale: Total NFTs 2333 7 of the
+                      Magnificent nine 8 of the eleven WANTED
                     </p>
                     {/* <div className="space-y-10">
                     <span className="variationInput text-center">Price</span>
