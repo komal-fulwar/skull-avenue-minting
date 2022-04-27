@@ -10729,7 +10729,7 @@ body {
 }
 
 body.is__dark {
-  background: #b69b7e;
+  background: #747d85;
 }
 
 @media (min-width: 1400px) {
@@ -20642,7 +20642,7 @@ label:active:after {
 .is__dark .upcoming_projects tr.white td,
 .is__dark .upcoming_projects .calendar_icon,
 .is__dark .card__item.six .card_body .card_footer .details {
-  background-color: #f8c307 !important;
+  background-color: #f8c307 ;
   border: none;
 }
 

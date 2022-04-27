@@ -43,7 +43,7 @@ const App = () => {
         <header
           className="header__1 js-header"
           id="header"
-          style={{ minHeight: "181px", backgroundColor: "#201a14" }}
+          style={{ minHeight: "181px", backgroundColor: "#0b1b27" }}
         >
           <div className="container">
             <div
@@ -246,7 +246,7 @@ const App = () => {
               className="col-12 col-lg-6 mb-5 mb-lg-0"
               style={{
                 borderRadius: "15px",
-                backgroundColor: "#b69b7ee2",
+                backgroundColor: "#0c1b27e3",
                 padding: "40px",
                 top: "20%",
                 left: "50%",
@@ -258,7 +258,7 @@ const App = () => {
               <span
                 style={{
                   fontFamily: "boston",
-                  color: "black",
+                  color: "#f8c307",
                 }}
                 className="display-5 fw-bold mb-5"
                 data-config-id="header"
@@ -305,6 +305,24 @@ const App = () => {
         </section>
         <div className="container">
           <div className="community">
+            {/* <div className="section__head space-y-20 text-center">
+              <span
+                style={{ fontFamily: "boston", color: "black" }}
+                className="section__title text-center"
+              >
+                GET YOUR SKULL NOW
+              </span>
+              <p
+                style={{
+                  fontFamily: "Aldrich",
+                  color: "white",
+                }}
+                className="section__text text-center"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div> */}
             {/* <div className="section__head space-y-20 text-center">
               <span
                 style={{
@@ -489,7 +507,7 @@ const App = () => {
           <div className="community">
             <div className="section__head space-y-20 text-center">
               <span
-                style={{ fontFamily: "boston", color: "black" }}
+                style={{ fontFamily: "boston", color: "#f8c307" }}
                 className="section__title text-center"
               >
                 OUR HANGOUTS
@@ -513,7 +531,10 @@ const App = () => {
                     href="https://twitter.com/Skullavenue_io"
                     target={"_blank"}
                   >
-                    <div className="item space-y-10">
+                    <div
+                      className="item space-y-10"
+                      style={{ backgroundColor: "#0c1b27" }}
+                    >
                       <div className="logo is_twitter">
                         <img
                           src="https://raroin.creabik.com/assets/img/icons/twitter.svg"
@@ -539,7 +560,10 @@ const App = () => {
                     href="https://discord.com/invite/2DXcDWABk7"
                     target={"_blank"}
                   >
-                    <div className="item space-y-10">
+                    <div
+                      className="item space-y-10 "
+                      style={{ backgroundColor: "#0c1b27" }}
+                    >
                       <div className="logo is_discord">
                         <img
                           src="https://raroin.creabik.com/assets/img/icons/discord.svg"
