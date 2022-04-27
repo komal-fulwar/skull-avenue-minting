@@ -249,7 +249,7 @@ const App = () => {
                 backgroundColor: "#b69b7ee2",
                 padding: "40px",
                 top: "20%",
-                left: "46%",
+                left: "50%",
                 position: "absolute",
                 wordWrap: "break",
                 width: "650px",
