@@ -230,16 +230,22 @@ const App = () => {
           </div>
         </header>
       </div>
+
       <div>
         {" "}
         <section>
-          <div
-            className="container-fluid  pt-10 mint-header"
-            style={{ minHeight: "700px" }}
-          >
+          <div className="   mint-header" style={{ minHeight: "600px" }}>
+            <video autoplay muted loop id="myVideo">
+              <source
+                src={require("./img/Skull_NY_01.mp4").default}
+                type="video/mp4"
+              />
+              Your browser does not support HTML5 video.
+            </video>
             <div
               className="col-12 col-lg-6 mb-5 mb-lg-0"
               style={{
+                borderRadius: "15px",
                 backgroundColor: "#b69b7ee2",
                 padding: "40px",
                 top: "15%",
@@ -319,7 +325,7 @@ const App = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div
-                  className="card__item one three"
+                  className=" one three"
                   style={{
                     background: "rgba(255, 255, 255, 0.155",
                     borderRadius: "16px",
@@ -329,13 +335,15 @@ const App = () => {
                   }}
                 >
                   <div className="card_body">
-                    <div className="card_head" style={{ maxHeight: "600px" }}>
+                    <div className="card_head">
                       <a href="Item-details.html">
-                        <img
-                          style={{ objectFit: "cover" }}
-                          src={require("./img/Promo-video.gif").default}
-                          alt="..."
-                        />
+                        <video autoplay muted loop style={{ width: "100%" }}>
+                          <source
+                            src={require("./img/Skull_NY_01.mp4").default}
+                            type="video/mp4"
+                          />
+                          Your browser does not support HTML5 video.
+                        </video>
                       </a>
                     </div>
                   </div>
