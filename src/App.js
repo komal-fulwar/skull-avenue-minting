@@ -305,7 +305,7 @@ const App = () => {
         </section>
         <div className="container">
           <div className="community">
-            <div className="section__head space-y-20 text-center">
+            {/* <div className="section__head space-y-20 text-center">
               <span
                 style={{
                   fontFamily: "boston",
@@ -327,14 +327,14 @@ const App = () => {
                     fontFamily: "Aldrich",
                     color: "white",
                     borderRight: "solid 2px black ",
-                    marginRight: "5px",
+                    marginRight: "25px",
                   }}
                 >
                   Unique pieces: 4444{" "}
                 </span>
-                Attributes: 160
+                Attributes: 160{" "}
               </p>
-            </div>
+            </div> */}
           </div>
           <div id="mint" className="box in__upload mb-120">
             <div className="row">
@@ -351,8 +351,14 @@ const App = () => {
                 >
                   <div className="card_body">
                     <div className="card_head">
-                      <a href="Item-details.html">
-                        <video autoPlay muted loop style={{ width: "100%" }}>
+                      <a href="#">
+                        <video
+                          autoPlay
+                          controls
+                          muted
+                          loop
+                          style={{ width: "100%" }}
+                        >
                           <source
                             src={require("./img/Skull_NY_01.mp4").default}
                             type="video/mp4"
