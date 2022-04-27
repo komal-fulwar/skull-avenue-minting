@@ -234,7 +234,7 @@ const App = () => {
       <div>
         {" "}
         <section>
-          <div className="   mint-header" style={{ minHeight: "600px" }}>
+          <div className="  web  mint-header" style={{ minHeight: "600px" }}>
             <video autoPlay muted loop id="myVideo">
               <source
                 src={require("./img/Skull_NY_01.mp4").default}
