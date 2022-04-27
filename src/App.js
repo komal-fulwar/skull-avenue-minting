@@ -314,10 +314,18 @@ const App = () => {
                   fontFamily: "Aldrich",
                   color: "white",
                 }}
-                className="section__text text-center"
+                className=""
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Skullavenue is a community of 4.444 unique full-body NFTs,
+                living in between the realm of what has been and what is yet to
+                come. Skullavenue has embarked on an ever-lasting journey,
+                travelling through the Solana universe. Skulls are often seen as
+                a symbol of death, confronting us with our mortality. This very
+                mortality connects all of us living on planet earth and those
+                who have physically left us. In addition, the skull is an
+                attribute that all humans have in common. No matter who you are
+                or where you come from, you carry one. We are all the same, yet
+                unique.
               </p>
             </div>
           </div>
@@ -460,9 +468,9 @@ const App = () => {
                     }}
                     className="color_text text-bold"
                   >
-                    You will receive
-                  </span>
-                  .00 SOL $0.00
+                    You will receive :
+                  </span>{" "}
+                  1 SKA for 1.1 SOL
                 </p>
                 <p></p>
               </div>
@@ -474,7 +482,7 @@ const App = () => {
                 style={{ fontFamily: "boston", color: "black" }}
                 className="section__title text-center"
               >
-                Community
+                OUR HANGOUTS
               </span>
               <p
                 style={{
@@ -491,44 +499,55 @@ const App = () => {
             <div className="community__items">
               <div className="row justify-content-center mb-20_reset">
                 <div className="col-md-3">
-                  <div className="item space-y-10">
-                    <div className="logo is_twitter">
-                      <img
-                        src="https://raroin.creabik.com/assets/img/icons/twitter.svg"
-                        alt="logo_community"
-                      />
+                  <a
+                    href="https://twitter.com/Skullavenue_io"
+                    target={"_blank"}
+                  >
+                    <div className="item space-y-10">
+                      <div className="logo is_twitter">
+                        <img
+                          src="https://raroin.creabik.com/assets/img/icons/twitter.svg"
+                          alt="logo_community"
+                        />
+                      </div>
+                      <h5 className="text-center">Twitter</h5>
+                      <p
+                        style={{
+                          fontFamily: "Aldrich",
+                          color: "white",
+                        }}
+                        className="text-center"
+                      >
+                        FOLLOW US ON TWITTER TO GET THE LATEST UPDATES.
+                      </p>
                     </div>
-                    <h5 className="text-center">Twitter</h5>
-                    <p
-                      style={{
-                        fontFamily: "Aldrich",
-                        color: "white",
-                      }}
-                      className="text-center"
-                    >
-                      FOLLOW US ON TWITTER TO GET THE LATEST UPDATES.
-                    </p>
-                  </div>
+                  </a>
                 </div>
+
                 <div className="col-md-3">
-                  <div className="item space-y-10">
-                    <div className="logo is_discord">
-                      <img
-                        src="https://raroin.creabik.com/assets/img/icons/discord.svg"
-                        alt="logo_community"
-                      />
+                  <a
+                    href="https://discord.com/invite/2DXcDWABk7"
+                    target={"_blank"}
+                  >
+                    <div className="item space-y-10">
+                      <div className="logo is_discord">
+                        <img
+                          src="https://raroin.creabik.com/assets/img/icons/discord.svg"
+                          alt="logo_community"
+                        />
+                      </div>
+                      <h5 className="text-center">Discord</h5>
+                      <p
+                        style={{
+                          fontFamily: "Aldrich",
+                          color: "white",
+                        }}
+                        className="text-center"
+                      >
+                        JOIN OUR DISCORD SERVER FOR IMPORTANT UPDATES.
+                      </p>
                     </div>
-                    <h5 className="text-center">Discord</h5>
-                    <p
-                      style={{
-                        fontFamily: "Aldrich",
-                        color: "white",
-                      }}
-                      className="text-center"
-                    >
-                      JOIN OUR DISCORD SERVER FOR IMPORTANT UPDATES
-                    </p>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
