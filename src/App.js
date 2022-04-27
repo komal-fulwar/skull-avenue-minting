@@ -235,7 +235,7 @@ const App = () => {
         {" "}
         <section>
           <div className="   mint-header" style={{ minHeight: "600px" }}>
-            <video autoplay muted loop id="myVideo">
+            <video autoPlay muted loop id="myVideo">
               <source
                 src={require("./img/Skull_NY_01.mp4").default}
                 type="video/mp4"
@@ -337,7 +337,7 @@ const App = () => {
                   <div className="card_body">
                     <div className="card_head">
                       <a href="Item-details.html">
-                        <video autoplay muted loop style={{ width: "100%" }}>
+                        <video autoPlay muted loop style={{ width: "100%" }}>
                           <source
                             src={require("./img/Skull_NY_01.mp4").default}
                             type="video/mp4"
