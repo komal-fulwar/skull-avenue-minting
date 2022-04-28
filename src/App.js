@@ -375,30 +375,46 @@ const App = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="form-group space-y-10">
+                <div className="form-group space-y-10  ">
                   <div className="space-y-20">
                     <div className="space-y-10 text-center">
-                      <span
+                      <p
                         className="nameInput "
                         style={{
                           fontFamily: "boston",
                           color: "black",
-                          fontSize: "34px",
+                          fontSize: "44px",
                         }}
                       >
                         SKULL AVENUE
-                      </span>
+                      </p>
                     </div>
 
                     <p
                       style={{
                         fontFamily: "Aldrich",
-                        color: "white",
+                        color: "black",
+                        fontSize: "20px",
                       }}
                       className="section__text text-center"
                     >
-                      Available in the Public sale: Total NFTs 2333 7 of the
-                      Magnificent nine 8 of the eleven WANTED
+                      <span
+                        style={{
+                          fontFamily: "boston",
+                          color: "black",
+                          fontSize: "20px",
+                        }}
+                      >
+                        {" "}
+                        Available in the Public sale
+                      </span>
+                      :
+                      <ul>
+                        {" "}
+                        <li>Total NFTs 2333</li>
+                        <li>7 of the Magnificent nine </li>
+                        <li>8 of the eleven WANTED</li>
+                      </ul>{" "}
                     </p>
                     {/* <div className="space-y-10">
                     <span className="variationInput text-center">Price</span>
@@ -493,7 +509,11 @@ const App = () => {
           <div className="community">
             <div className="section__head space-y-20 text-center">
               <span
-                style={{ fontFamily: "boston", color: "#f8c307" }}
+                style={{
+                  fontFamily: "boston",
+                  color: "#f8c307",
+                  fontSize: "44px",
+                }}
                 className="section__title text-center"
               >
                 OUR HANGOUTS
