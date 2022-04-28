@@ -367,7 +367,7 @@ const App = () => {
                     id="outer"
                   >
                     <source
-                      src={require("./img/Skull_NY_01.mp4").default}
+                      src={require("./img/promo_game_06.mp4").default}
                       type="video/mp4"
                     />
                     Your browser does not support HTML5 video.
