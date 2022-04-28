@@ -23,6 +23,14 @@
 
  
 }
+#outer {
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 20px;
+  overflow: hidden;
+  
+}
+
 
 .mint-header{
 

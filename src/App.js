@@ -357,35 +357,21 @@ const App = () => {
           <div id="mint" className="box in__upload mb-120">
             <div className="row">
               <div className="col-lg-6">
-                <div
-                  className=" one three"
-                  style={{
-                    background: "rgba(255, 255, 255, 0.155",
-                    borderRadius: "16px",
-                    boxShadow: "0 4px 30px rgba(255, 255, 255, 0.1)",
-                    backdropFilter: "blur(10.2px)",
-                    WebkitBackdropFilter: "blur(10.2px)",
-                  }}
-                >
-                  <div className="card_body">
-                    <div className="card_head">
-                      <a href="#">
-                        <video
-                          autoPlay
-                          controls
-                          muted
-                          loop
-                          style={{ width: "100%" }}
-                        >
-                          <source
-                            src={require("./img/Skull_NY_01.mp4").default}
-                            type="video/mp4"
-                          />
-                          Your browser does not support HTML5 video.
-                        </video>
-                      </a>
-                    </div>
-                  </div>
+                <div>
+                  <video
+                    autoPlay
+                    controls
+                    controlsList="nodownload"
+                    muted
+                    loop
+                    id="outer"
+                  >
+                    <source
+                      src={require("./img/Skull_NY_01.mp4").default}
+                      type="video/mp4"
+                    />
+                    Your browser does not support HTML5 video.
+                  </video>
                 </div>
               </div>
               <div className="col-lg-6">
