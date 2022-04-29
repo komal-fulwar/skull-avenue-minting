@@ -41,19 +41,19 @@ const App = () => {
       <div>
         {" "}
         <header
-          className="header__1 js-header web"
+          className="header__1 js-headern web"
           id="header"
-          style={{ minHeight: "181px", backgroundColor: "#26252a" }}
+          style={{ minHeight: "140px", backgroundColor: "#26252a" }}
         >
           <div className="container">
             <div
               className="wrapper js-header-wrapper"
-              style={{ paddingTop: "50px" }}
+              // style={{ paddingTop: "50px" }}
             >
-              <div className="header__logo ">
+              <div className="header__logo">
                 <a href="/">
                   <img
-                    style={{ width: "250px", height: "94px" }}
+                    style={{ width: "280px", height: "104px" }}
                     className="header__logo"
                     id="logo_js"
                     src="https://skullavenue.io/wp-content/uploads/2021/12/Schild_02.png"
