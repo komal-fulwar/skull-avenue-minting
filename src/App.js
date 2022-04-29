@@ -41,7 +41,7 @@ const App = () => {
       <div>
         {" "}
         <header
-          className="header__1 js-header"
+          className="header__1 js-header web"
           id="header"
           style={{ minHeight: "181px", backgroundColor: "#26252a" }}
         >
@@ -50,10 +50,196 @@ const App = () => {
               className="wrapper js-header-wrapper"
               style={{ paddingTop: "50px" }}
             >
-              <div className="header__logo">
+              <div className="header__logo ">
                 <a href="/">
                   <img
                     style={{ width: "250px", height: "94px" }}
+                    className="header__logo"
+                    id="logo_js"
+                    src="https://skullavenue.io/wp-content/uploads/2021/12/Schild_02.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+
+              <div className="header__menu">
+                <ul className="d-flex space-x-20">
+                  <li>
+                    {" "}
+                    <a
+                      style={{ fontFamily: "boston" }}
+                      className="color_white"
+                      href="https://skullavenue.io/"
+                    >
+                      {" "}
+                      Home
+                    </a>{" "}
+                  </li>
+                  <div className="vl"></div>
+                  <li>
+                    <a
+                      style={{ fontFamily: "boston" }}
+                      className="color_white"
+                      href="https://skullavenue.io/roadmap/"
+                    >
+                      {" "}
+                      RoadMap
+                    </a>{" "}
+                  </li>
+                  <div className="vl"></div>
+                  <li>
+                    {" "}
+                    <a
+                      style={{ fontFamily: "boston" }}
+                      className="color_white"
+                      href="https://skullavenue.io/"
+                    >
+                      {" "}
+                      Collection
+                    </a>{" "}
+                  </li>
+                  <div className="vl"></div>
+                  <li>
+                    {" "}
+                    <a
+                      style={{ fontFamily: "boston" }}
+                      className="color_white"
+                      href="https://skullavenue.io/attributes/"
+                    >
+                      Attributes
+                    </a>
+                  </li>
+                  <div className="vl"></div>
+                  <li>
+                    {" "}
+                    <a
+                      style={{ fontFamily: "boston" }}
+                      className="color_white"
+                      href="https://skullavenue.io/community/"
+                    >
+                      {" "}
+                      community
+                    </a>{" "}
+                  </li>
+                </ul>
+              </div>
+
+              {!pubKey ? (
+                <div className="header__btns">
+                  <a
+                    onClick={connectWallet}
+                    style={{
+                      fontSize: "18px",
+                      padding: " 20px 40px",
+                      fill: "black",
+                      color: "black",
+                      backgroundColor: "#f8c307",
+                      fontFamily: "boston",
+                      borderRadius: " 5px",
+                    }}
+                  >
+                    Connect wallet
+                  </a>
+                </div>
+              ) : (
+                <div className="header__btns">
+                  <a
+                    onClick={disconnectWallet}
+                    style={{
+                      fontSize: "18px",
+                      width: "14rem",
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      display: "inline-block",
+                      fill: "black",
+                      paddingTop: "1rem",
+                      paddingBottom: "1rem",
+                      paddingLeft: "0.4rem",
+                      color: "black",
+                      backgroundColor: "#f8c307",
+                      fontFamily: "boston",
+                      borderRadius: " 5px",
+                    }}
+                  >
+                    {pubKey.toString()}
+                  </a>
+                </div>
+              )}
+
+              <div className="header__burger js-header-burger"></div>
+
+              <div className="header__mobile js-header-mobile">
+                <div className="header__mobile__menu space-y-40">
+                  <ul className="d-flex space-y-20">
+                    <li>
+                      {" "}
+                      <a className="color_black" href="https://skullavenue.io/">
+                        {" "}
+                        Home
+                      </a>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <a className="color_black" href="https://skullavenue.io/">
+                        {" "}
+                        RoadMap
+                      </a>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <a className="color_black" href="#">
+                        {" "}
+                        Collection
+                      </a>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <a className="color_black" href="https://skullavenue.io/">
+                        {" "}
+                        Attributes
+                      </a>{" "}
+                    </li>
+                    <li>
+                      {" "}
+                      <a className="color_black" href="#">
+                        community
+                      </a>
+                    </li>
+                  </ul>
+                  {/* <li>
+            <a
+              className="btn btn-grad btn-sm"
+              style={{ padding: "15px" }}
+              href="Connect-wallet.html"
+            >
+              <i className="ri-wallet-3-line"></i>
+              Connect wallet
+            </a>
+            <a href="">
+              <img
+                width="45"
+                src="https://phantom.app/apple-touch-icon.png"
+                alt=""
+              />
+            </a>
+          </li> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <header
+          className="header__1 js-header mobile"
+          id="header"
+          style={{ minHeight: "66px", backgroundColor: "#26252a" }}
+        >
+          <div className="container">
+            <div className="wrapper js-header-wrapper">
+              <div className="header__logo ">
+                <a href="/">
+                  <img
+                    style={{ width: "144px", height: "54px" }}
                     className="header__logo"
                     id="logo_js"
                     src="https://skullavenue.io/wp-content/uploads/2021/12/Schild_02.png"
