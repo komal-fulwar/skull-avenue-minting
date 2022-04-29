@@ -802,6 +802,11 @@ const App = () => {
       <br />
       <br />
       <br />
+      <h6 class="text-center ">
+        <span class="text-white" style={{ fontFamily: "Aldrich" }}>
+          Copyright © 2021 Mil Beats | Delivered by AngolaTech
+        </span>
+      </h6>
       <br />
     </div>
   );
