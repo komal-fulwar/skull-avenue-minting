@@ -373,6 +373,10 @@ const App = () => {
                     Your browser does not support HTML5 video.
                   </video>
                 </div>
+                <h2 class="text-center" style={{ fontSize: "15px" }}>
+                  *This NFT will give you access to the Skullavenue game when it
+                  launches.*
+                </h2>
               </div>
               <div className="col-lg-6">
                 <div className="form-group space-y-10  ">
