@@ -43,7 +43,7 @@ const App = () => {
         <header
           className="header__1 js-header"
           id="header"
-          style={{ minHeight: "181px", backgroundColor: "#0b1b27" }}
+          style={{ minHeight: "181px", backgroundColor: "#26252a" }}
         >
           <div className="container">
             <div
@@ -246,7 +246,7 @@ const App = () => {
               className="col-12 col-lg-6 mb-5 mb-lg-0"
               style={{
                 borderRadius: "15px",
-                backgroundColor: "#0c1b27e3",
+                backgroundColor: "#26252bde",
                 padding: "40px",
                 top: "20%",
                 left: "50%",
@@ -435,7 +435,7 @@ const App = () => {
                             padding: " 20px 40px",
                             fill: "black",
                             color: "white",
-                            backgroundColor: "#0c1b27",
+                            backgroundColor: "#26252b",
                             fontFamily: "boston",
                             borderRadius: " 5px",
                           }}
@@ -452,7 +452,7 @@ const App = () => {
                             padding: " 20px 40px",
                             fill: "black",
                             color: "white",
-                            backgroundColor: "#0c1b27",
+                            backgroundColor: "#26252b",
                             fontFamily: "boston",
                             borderRadius: " 5px",
                           }}
@@ -539,7 +539,7 @@ const App = () => {
                   >
                     <div
                       className="item space-y-10"
-                      style={{ backgroundColor: "#0c1b27" }}
+                      style={{ backgroundColor: "#26252b" }}
                     >
                       <div className="logo is_twitter">
                         <img
@@ -568,7 +568,7 @@ const App = () => {
                   >
                     <div
                       className="item space-y-10 "
-                      style={{ backgroundColor: "#0c1b27" }}
+                      style={{ backgroundColor: "#26252b" }}
                     >
                       <div className="logo is_discord">
                         <img
