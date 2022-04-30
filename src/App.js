@@ -4,6 +4,7 @@ import { PublicKey } from "@solana/web3.js";
 import { cancel } from "./components/cancel";
 import "./style.css";
 import Header from "./components/header/Header";
+import { Timer } from "./components/countdown";
 
 const App = () => {
   const [count, setCount] = useState();
@@ -445,6 +446,7 @@ const App = () => {
                 style={{
                   fontFamily: "boston",
                   color: "#f8c307",
+                  textShadow: "2px 2px black",
                 }}
                 className="display-5 fw-bold mb-5"
                 data-config-id="header"
@@ -491,12 +493,17 @@ const App = () => {
         </section>
         <div className="container">
           <div className="community">
-            {/* <div className="section__head space-y-20 text-center">
+            <div className="section__head space-y-20 text-center">
               <span
-                style={{ fontFamily: "boston", color: "black" }}
+                style={{
+                  fontFamily: "boston",
+                  color: "#f8c307",
+                  fontSize: "44px",
+                  textShadow: "2px 2px black",
+                }}
                 className="section__title text-center"
               >
-                GET YOUR SKULL NOW
+                THE SALE ENDS IN
               </span>
               <p
                 style={{
@@ -505,10 +512,9 @@ const App = () => {
                 }}
                 className="section__text text-center"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <Timer />
               </p>
-            </div> */}
+            </div>
             {/* <div className="section__head space-y-20 text-center">
               <span
                 style={{
@@ -567,6 +573,7 @@ const App = () => {
                   launches.*
                 </h2>
               </div>
+
               <div className="col-lg-6">
                 <div className="form-group space-y-10  ">
                   <div className="space-y-20">
@@ -706,6 +713,7 @@ const App = () => {
                   fontFamily: "boston",
                   color: "#f8c307",
                   fontSize: "44px",
+                  textShadow: "2px 2px black",
                 }}
                 className="section__title text-center"
               >
@@ -788,6 +796,7 @@ const App = () => {
           </div>
         </div>
       </div>
+
       {/* <h1>Hey: {pubKey ? pubKey.toString() : ""}</h1>
       <br />
       <button>Connect Here!</button>
