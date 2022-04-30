@@ -10899,10 +10899,13 @@ h6 {
 
 a {
   color: #566ffe;
+  padding: 10px;
 }
 
 a:hover {
-  color: #566ffe;
+  color: #ffffff;
+  padding: 10px;
+  border-bottom: solid 5px #f8c307;
 }
 
 h1 {

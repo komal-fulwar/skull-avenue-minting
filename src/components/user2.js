@@ -33,17 +33,9 @@ const getStates = async (programId) => {
   // console.log("accounts", accounts[0].pubkey.toString(), accounts[1].pubkey.toString());
   if (accounts.length > 0) {
     for (let i = 0; i < accounts.length; i++) {
-      const escrowAccount = await connection.getAccountInfo(accounts[i].pubkey);
-
-      if (escrowAccount === null) {
-        console.log("Could not find escrow at given address!");
-      }
-      console.log(escrowAccount, "*****escrow Account ..");
-      const encodedEscrowState = escrowAccount && escrowAccount.data;
+      const encodedEscrowState = accounts[i].account.data;
       const decodedEscrowLayout =
         ESCROW_ACCOUNT_DATA_LAYOUT.decode(encodedEscrowState);
-      const mint = new PublicKey(decodedEscrowLayout.mintKey);
-      console.log(mint.toBase58(), "****Mint key****");
 
       const escrowState = {
         escrowAccountPubkey: accounts[i].pubkey,
@@ -60,7 +52,10 @@ const getStates = async (programId) => {
 
       if (escrowState.isInitialized == true) {
         accountsInited.push(escrowState);
-        console.log("11111111", escrowState.escrowAccountPubkey.toString());
+        console.log(
+          "Initialized Escrow:",
+          escrowState.escrowAccountPubkey.toString()
+        );
       }
     }
     return accountsInited[Math.floor(Math.random() * accountsInited.length)];
