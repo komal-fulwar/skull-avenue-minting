@@ -675,7 +675,7 @@ const App = () => {
                     {" "}
                     Service fee :{" "}
                   </span>
-                  0.00%
+                  0.187% / 0.00204 SOL
                 </p>
                 <p
                   style={{
