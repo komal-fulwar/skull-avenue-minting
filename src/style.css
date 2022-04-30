@@ -10898,11 +10898,21 @@ h6 {
 }
 
 a {
-  color: #566ffe;
-  padding: 10px;
+  /* color: #566ffe;
+  padding: 10px; */
 }
 
 a:hover {
+  /* color: #ffffff;
+  padding: 10px;
+  border-bottom: solid 5px #f8c307; */
+}
+.custom {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.custom:hover {
   color: #ffffff;
   padding: 10px;
   border-bottom: solid 5px #f8c307;

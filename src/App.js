@@ -68,7 +68,7 @@ const App = () => {
                     {" "}
                     <a
                       style={{ fontFamily: "boston" }}
-                      className="color_white"
+                      className="color_white custom"
                       href="https://skullavenue.io/"
                     >
                       {" "}
@@ -79,7 +79,7 @@ const App = () => {
                   <li>
                     <a
                       style={{ fontFamily: "boston" }}
-                      className="color_white"
+                      className="color_white custom"
                       href="https://skullavenue.io/roadmap/"
                     >
                       {" "}
@@ -91,7 +91,7 @@ const App = () => {
                     {" "}
                     <a
                       style={{ fontFamily: "boston" }}
-                      className="color_white"
+                      className="color_white custom"
                       href="https://skullavenue.io/"
                     >
                       {" "}
@@ -103,7 +103,7 @@ const App = () => {
                     {" "}
                     <a
                       style={{ fontFamily: "boston" }}
-                      className="color_white"
+                      className="color_white custom"
                       href="https://skullavenue.io/attributes/"
                     >
                       Attributes
@@ -114,7 +114,7 @@ const App = () => {
                     {" "}
                     <a
                       style={{ fontFamily: "boston" }}
-                      className="color_white"
+                      className="color_white custom"
                       href="https://skullavenue.io/community/"
                     >
                       {" "}
