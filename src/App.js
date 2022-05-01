@@ -635,14 +635,13 @@ const App = () => {
                             padding: " 20px 40px",
                             fill: "black",
                             color: "white",
-                            backgroundColor: "grey",
+                            backgroundColor: "#26252b",
                             fontFamily: "boston",
                             borderRadius: " 5px",
                           }}
-                          disabled
-                          // onClick={connectWallet}
+                          onClick={connectWallet}
                         >
-                          Sorry Minting Is On Hold
+                          Connect wallet
                         </a>
                       </div>
                     ) : (
@@ -653,12 +652,11 @@ const App = () => {
                             padding: " 20px 40px",
                             fill: "black",
                             color: "white",
-                            backgroundColor: "Grey",
+                            backgroundColor: "#26252b",
                             fontFamily: "boston",
                             borderRadius: " 5px",
                           }}
                           onClick={() => user2(pubKey)}
-                          disabled
                         >
                           Mint
                         </a>
