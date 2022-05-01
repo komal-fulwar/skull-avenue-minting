@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../style.css";
 var Timer = () => {
-  var countDownDate = new Date().getDate();
-  countDownDate.setHours(68);
+  var countDownDate = new Date().getTimezoneOffset;
+  countDownDate.setHours(48);
   // Update the count down every 1 second
   var x = setInterval(function () {
     // Get today's date and time
