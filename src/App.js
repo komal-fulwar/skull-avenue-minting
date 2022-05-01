@@ -503,7 +503,7 @@ const App = () => {
                 }}
                 className="section__title text-center"
               >
-                THE SALE ENDS IN
+                THE SALE ENDS
               </span>
               <p
                 style={{

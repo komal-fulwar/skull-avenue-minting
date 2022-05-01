@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style.css";
-var Timer = () => {
+const Timer = () => {
   var countDownDate = new Date("MAY 3, 2022 20:30:00").getTime();
 
   // Update the count down every 1 second
@@ -39,8 +39,10 @@ var Timer = () => {
           color: "white",
           textShadow: "2px 2px black",
         }}
-        id="demo"
-      ></p>
+        // id="demo"
+      >
+        3 rd of May at (15:00 (UTC))
+      </p>
     </div>
   );
 };
