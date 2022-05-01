@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../style.css";
 var Timer = () => {
-  var countDownDate = new Date();
+  var countDownDate = new Date().getDate();
   countDownDate.setHours(68);
   // Update the count down every 1 second
   var x = setInterval(function () {
