@@ -493,7 +493,7 @@ const App = () => {
         </section>
         <div className="container">
           <div className="community">
-            <div className="section__head space-y-20 text-center">
+            {/* <div className="section__head space-y-20 text-center">
               <span
                 style={{
                   fontFamily: "boston",
@@ -514,7 +514,7 @@ const App = () => {
               >
                 <Timer />
               </p>
-            </div>
+            </div> */}
             {/* <div className="section__head space-y-20 text-center">
               <span
                 style={{
